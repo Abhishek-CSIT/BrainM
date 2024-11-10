@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task Manger App</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+ 
+    <div class="side-div">
+        <h1 class="finance-app">Task Manager </h1>
+       
+    <div class="main">
+        <div id="summary">
+          
+            <div class="form-group">
+             <label for="">Title</label>
+             <input class="form-control" type="text" id="title">
+            <div class="form-group">
+             <label for="">Desc</label>
+             <textarea class="form-control"  placeholder="Desc" id="desc"></textarea>
+            </div>
+            <div class="form-group">
+             <label for="">Due Date</label>
+             <input class="form-control" type="date" id="due-date">
+            </div>
+            <div class="form-group">
+                <label for="priority">Priority</label>
+                <select id="priority" class="form-control">
+                    <option value="High">High</option>
+                    <option value="Low">Low</option>
+                </select>
+            </div>
+            <br>
+            <hr>
+            <div>
+                 <button class=" btn-primary">Add New Task</button>
+                 <button class=" btn-danger">Delete</button>
+                 <button class=" btn-success">Save</button>
+                 <button class=" btn-secondary">Update</button>
+            </div>
+            <div>
+                 <h4>Total Tasks</h4>
+                 <table class="table table-bordered border-primary">
+                     <thead class="table-dark">
+                         <tr>
+                             <th>ID</th>
+                             <th>Title</th>
+                             <th>Desc</th>
+                             <th>Due Date</th>
+                             <th>priority</th>
+                         </tr>
+                     </thead>
+                     <tbody>
+
+                     </tbody>
+                 </table>
+            </div>
+        </div>
+     </div>
+ </div>
+    </div>
+</body>
+</html>
